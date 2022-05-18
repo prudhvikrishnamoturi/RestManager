@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '12.0'
 s.name = "RestManager"
-s.summary = "RestManager is a API helper written in Swift"
+s.summary = "RestManager is an API helper written in Swift"
 s.requires_arc = true
 
 # 2
@@ -17,11 +17,11 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Prudhvi Krishna" => "prudhvikrishna.moturi@criticalriver.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/prudhvikrishnamoturi/RestManagerPodSpecs"
+s.homepage = "https://github.com/prudhvikrishnamoturi/RestManager"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/prudhvikrishnamoturi/RestManager.git",
-             :tag => "#{s.version}" }
+             :tag => "0.1.0" }
 
 # 7
 s.framework = "UIKit"
@@ -30,9 +30,11 @@ s.framework = "UIKit"
 s.source_files = "RestManager/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
 
 end
+
+
