@@ -10,6 +10,8 @@ let package = Package(
         .library(
             name: "Dependencies",
             targets: ["Dependencies"]),
+        .iOS(.v13),
+        .macOS(.v10_14)
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
