@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/master.swiftdeps"
+  },
+  "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/Sources/RestManagerSPM/RestManager.swift": {
+    "dependencies": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/RestManager.d",
+    "object": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/RestManager.swift.o",
+    "swiftmodule": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/RestManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/RestManager.swiftdeps"
+  },
+  "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/Sources/RestManagerSPM/SampleStructures.swift": {
+    "dependencies": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/SampleStructures.d",
+    "object": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/SampleStructures.swift.o",
+    "swiftmodule": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/SampleStructures~partial.swiftmodule",
+    "swift-dependencies": "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/SampleStructures.swiftdeps"
+  }
+}

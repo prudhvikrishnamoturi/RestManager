@@ -1,0 +1,4 @@
+module RestManagerSPM {
+    header "/Users/prudhvi/Documents/CR Frameworks/RestManager/RestManagerSPM/.build/x86_64-apple-macosx/debug/RestManagerSPM.build/RestManagerSPM-Swift.h"
+    requires objc
+}

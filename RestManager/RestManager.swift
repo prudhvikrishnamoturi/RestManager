@@ -18,13 +18,13 @@ public enum HttpMethod: String {
 
 public class RestManager {
     // RestEntity is a custom type for setting or getting values to any of the RestEntity properties
-    var requestHttpHeaders = RestEntity()
+    public var requestHttpHeaders = RestEntity()
     
-    var urlQueryParameters = RestEntity()
+    public var urlQueryParameters = RestEntity()
     
-    var httpBodyParameters = RestEntity()
+    public var httpBodyParameters = RestEntity()
     
-    var httpBody: Data?
+    public var httpBody: Data?
     
     public init() {
         

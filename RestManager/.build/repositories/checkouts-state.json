@@ -1,0 +1,11 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/prudhvikrishnamoturi/RestManager" : {
+        "repositoryURL" : "https://github.com/prudhvikrishnamoturi/RestManager",
+        "subpath" : "RestManager-fbfc0f52"
+      }
+    }
+  },
+  "version" : 1
+}

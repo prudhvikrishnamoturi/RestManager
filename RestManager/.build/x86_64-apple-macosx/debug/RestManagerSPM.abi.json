@@ -1,0 +1,4734 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HttpMethod",
+      "printedName": "HttpMethod",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "get",
+          "printedName": "get",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.HttpMethod.Type) -> RestManagerSPM.HttpMethod",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RestManagerSPM.HttpMethod.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HttpMethod",
+                      "printedName": "RestManagerSPM.HttpMethod",
+                      "usr": "s:14RestManagerSPM10HttpMethodO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14RestManagerSPM10HttpMethodO3getyA2CmF",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO3getyA2CmF",
+          "moduleName": "RestManagerSPM",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "post",
+          "printedName": "post",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.HttpMethod.Type) -> RestManagerSPM.HttpMethod",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RestManagerSPM.HttpMethod.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HttpMethod",
+                      "printedName": "RestManagerSPM.HttpMethod",
+                      "usr": "s:14RestManagerSPM10HttpMethodO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14RestManagerSPM10HttpMethodO4postyA2CmF",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO4postyA2CmF",
+          "moduleName": "RestManagerSPM",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "put",
+          "printedName": "put",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.HttpMethod.Type) -> RestManagerSPM.HttpMethod",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RestManagerSPM.HttpMethod.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HttpMethod",
+                      "printedName": "RestManagerSPM.HttpMethod",
+                      "usr": "s:14RestManagerSPM10HttpMethodO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14RestManagerSPM10HttpMethodO3putyA2CmF",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO3putyA2CmF",
+          "moduleName": "RestManagerSPM",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "patch",
+          "printedName": "patch",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.HttpMethod.Type) -> RestManagerSPM.HttpMethod",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RestManagerSPM.HttpMethod.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HttpMethod",
+                      "printedName": "RestManagerSPM.HttpMethod",
+                      "usr": "s:14RestManagerSPM10HttpMethodO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14RestManagerSPM10HttpMethodO5patchyA2CmF",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO5patchyA2CmF",
+          "moduleName": "RestManagerSPM",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "delete",
+          "printedName": "delete",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.HttpMethod.Type) -> RestManagerSPM.HttpMethod",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RestManagerSPM.HttpMethod.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HttpMethod",
+                      "printedName": "RestManagerSPM.HttpMethod",
+                      "usr": "s:14RestManagerSPM10HttpMethodO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14RestManagerSPM10HttpMethodO6deleteyA2CmF",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO6deleteyA2CmF",
+          "moduleName": "RestManagerSPM",
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RestManagerSPM.HttpMethod?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HttpMethod",
+                  "printedName": "RestManagerSPM.HttpMethod",
+                  "usr": "s:14RestManagerSPM10HttpMethodO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM10HttpMethodO8rawValueACSgSS_tcfc",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO8rawValueACSgSS_tcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM10HttpMethodO8rawValueSSvp",
+          "mangledName": "$s14RestManagerSPM10HttpMethodO8rawValueSSvp",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM10HttpMethodO8rawValueSSvg",
+              "mangledName": "$s14RestManagerSPM10HttpMethodO8rawValueSSvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:14RestManagerSPM10HttpMethodO",
+      "mangledName": "$s14RestManagerSPM10HttpMethodO",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "String",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RestManager",
+      "printedName": "RestManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "requestHttpHeaders",
+          "printedName": "requestHttpHeaders",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RestEntity",
+              "printedName": "RestManagerSPM.RestEntity",
+              "usr": "s:14RestManagerSPM0A6EntityV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvp",
+          "mangledName": "$s14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvp",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvg",
+              "mangledName": "$s14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvs",
+              "mangledName": "$s14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvM",
+              "mangledName": "$s14RestManagerSPM0aB0C18requestHttpHeadersAA0A6EntityVvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "urlQueryParameters",
+          "printedName": "urlQueryParameters",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RestEntity",
+              "printedName": "RestManagerSPM.RestEntity",
+              "usr": "s:14RestManagerSPM0A6EntityV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvp",
+          "mangledName": "$s14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvp",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvg",
+              "mangledName": "$s14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvs",
+              "mangledName": "$s14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvM",
+              "mangledName": "$s14RestManagerSPM0aB0C18urlQueryParametersAA0A6EntityVvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "httpBodyParameters",
+          "printedName": "httpBodyParameters",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RestEntity",
+              "printedName": "RestManagerSPM.RestEntity",
+              "usr": "s:14RestManagerSPM0A6EntityV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvp",
+          "mangledName": "$s14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvp",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvg",
+              "mangledName": "$s14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvs",
+              "mangledName": "$s14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvM",
+              "mangledName": "$s14RestManagerSPM0aB0C18httpBodyParametersAA0A6EntityVvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "httpBody",
+          "printedName": "httpBody",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Data?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvp",
+          "mangledName": "$s14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvp",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvg",
+              "mangledName": "$s14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvs",
+              "mangledName": "$s14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvM",
+              "mangledName": "$s14RestManagerSPM0aB0C8httpBody10Foundation4DataVSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RestManager",
+              "printedName": "RestManagerSPM.RestManager",
+              "usr": "s:14RestManagerSPM0aB0C"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM0aB0CACycfc",
+          "mangledName": "$s14RestManagerSPM0aB0CACycfc",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "makeRequest",
+          "printedName": "makeRequest(toURL:withHttpMethod:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "HttpMethod",
+              "printedName": "RestManagerSPM.HttpMethod",
+              "usr": "s:14RestManagerSPM10HttpMethodO"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RestManagerSPM.RestManager.Results) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Results",
+                  "printedName": "RestManagerSPM.RestManager.Results",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0aB0C11makeRequest5toURL14withHttpMethod10completiony10Foundation0G0V_AA0iJ0OyAC7ResultsVctF",
+          "mangledName": "$s14RestManagerSPM0aB0C11makeRequest5toURL14withHttpMethod10completiony10Foundation0G0V_AA0iJ0OyAC7ResultsVctF",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getData",
+          "printedName": "getData(fromURL:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Foundation.Data?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0aB0C7getData7fromURL10completiony10Foundation0G0V_yAG0E0VSgctF",
+          "mangledName": "$s14RestManagerSPM0aB0C7getData7fromURL10completiony10Foundation0G0V_yAG0E0VSgctF",
+          "moduleName": "RestManagerSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Response",
+          "printedName": "Response",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "response",
+              "printedName": "response",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URLResponse",
+                      "printedName": "Foundation.URLResponse",
+                      "usr": "c:objc(cs)NSURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvp",
+              "mangledName": "$s14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.URLResponse?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "URLResponse",
+                          "printedName": "Foundation.URLResponse",
+                          "usr": "c:objc(cs)NSURLResponse"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.URLResponse?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "URLResponse",
+                          "printedName": "Foundation.URLResponse",
+                          "usr": "c:objc(cs)NSURLResponse"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvs",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvM",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV8responseSo13NSURLResponseCSgvM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "httpStatusCode",
+              "printedName": "httpStatusCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivp",
+              "mangledName": "$s14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivg",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivs",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivM",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV14httpStatusCodeSivM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "headers",
+              "printedName": "headers",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RestEntity",
+                  "printedName": "RestManagerSPM.RestEntity",
+                  "usr": "s:14RestManagerSPM0A6EntityV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvp",
+              "mangledName": "$s14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 2,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RestEntity",
+                      "printedName": "RestManagerSPM.RestEntity",
+                      "usr": "s:14RestManagerSPM0A6EntityV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RestEntity",
+                      "printedName": "RestManagerSPM.RestEntity",
+                      "usr": "s:14RestManagerSPM0A6EntityV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvs",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvM",
+                  "mangledName": "$s14RestManagerSPM0aB0C8ResponseV7headersAA0A6EntityVvM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(fromURLResponse:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Response",
+                  "printedName": "RestManagerSPM.RestManager.Response",
+                  "usr": "s:14RestManagerSPM0aB0C8ResponseV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URLResponse",
+                      "printedName": "Foundation.URLResponse",
+                      "usr": "c:objc(cs)NSURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:14RestManagerSPM0aB0C8ResponseV15fromURLResponseAESo13NSURLResponseCSg_tcfc",
+              "mangledName": "$s14RestManagerSPM0aB0C8ResponseV15fromURLResponseAESo13NSURLResponseCSg_tcfc",
+              "moduleName": "RestManagerSPM",
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:14RestManagerSPM0aB0C8ResponseV",
+          "mangledName": "$s14RestManagerSPM0aB0C8ResponseV",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Results",
+          "printedName": "Results",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "data",
+              "printedName": "data",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvp",
+              "mangledName": "$s14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.Data?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Data",
+                          "printedName": "Foundation.Data",
+                          "usr": "s:10Foundation4DataV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.Data?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Data",
+                          "printedName": "Foundation.Data",
+                          "usr": "s:10Foundation4DataV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvs",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvM",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV4data10Foundation4DataVSgvM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "response",
+              "printedName": "response",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RestManagerSPM.RestManager.Response?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Response",
+                      "printedName": "RestManagerSPM.RestManager.Response",
+                      "usr": "s:14RestManagerSPM0aB0C8ResponseV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvp",
+              "mangledName": "$s14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RestManagerSPM.RestManager.Response?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Response",
+                          "printedName": "RestManagerSPM.RestManager.Response",
+                          "usr": "s:14RestManagerSPM0aB0C8ResponseV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RestManagerSPM.RestManager.Response?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Response",
+                          "printedName": "RestManagerSPM.RestManager.Response",
+                          "usr": "s:14RestManagerSPM0aB0C8ResponseV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvs",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvM",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV8responseAC8ResponseVSgvM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "error",
+              "printedName": "error",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Error?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvp",
+              "mangledName": "$s14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage",
+                "AccessControl"
+              ],
+              "fixedbinaryorder": 2,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvs",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvs",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvM",
+                  "mangledName": "$s14RestManagerSPM0aB0C7ResultsV5errors5Error_pSgvM",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(withData:response:error:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Results",
+                  "printedName": "RestManagerSPM.RestManager.Results",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RestManagerSPM.RestManager.Response?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Response",
+                      "printedName": "RestManagerSPM.RestManager.Response",
+                      "usr": "s:14RestManagerSPM0aB0C8ResponseV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Error?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:14RestManagerSPM0aB0C7ResultsV8withData8response5errorAE10Foundation0F0VSg_AC8ResponseVSgs5Error_pSgtcfc",
+              "mangledName": "$s14RestManagerSPM0aB0C7ResultsV8withData8response5errorAE10Foundation0F0VSg_AC8ResponseVSgs5Error_pSgtcfc",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "RawDocComment"
+              ],
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(withError:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Results",
+                  "printedName": "RestManagerSPM.RestManager.Results",
+                  "usr": "s:14RestManagerSPM0aB0C7ResultsV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:14RestManagerSPM0aB0C7ResultsV9withErrorAEs0F0_p_tcfc",
+              "mangledName": "$s14RestManagerSPM0aB0C7ResultsV9withErrorAEs0F0_p_tcfc",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "RawDocComment"
+              ],
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:14RestManagerSPM0aB0C7ResultsV",
+          "mangledName": "$s14RestManagerSPM0aB0C7ResultsV",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "AccessControl"
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "CustomError",
+          "printedName": "CustomError",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "failedToCreateRequest",
+              "printedName": "failedToCreateRequest",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(RestManagerSPM.RestManager.CustomError.Type) -> RestManagerSPM.RestManager.CustomError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CustomError",
+                      "printedName": "RestManagerSPM.RestManager.CustomError",
+                      "usr": "s:14RestManagerSPM0aB0C11CustomErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "RestManagerSPM.RestManager.CustomError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CustomError",
+                          "printedName": "RestManagerSPM.RestManager.CustomError",
+                          "usr": "s:14RestManagerSPM0aB0C11CustomErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:14RestManagerSPM0aB0C11CustomErrorO21failedToCreateRequestyA2EmF",
+              "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO21failedToCreateRequestyA2EmF",
+              "moduleName": "RestManagerSPM",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CustomError",
+                  "printedName": "RestManagerSPM.RestManager.CustomError",
+                  "usr": "s:14RestManagerSPM0aB0C11CustomErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CustomError",
+                  "printedName": "RestManagerSPM.RestManager.CustomError",
+                  "usr": "s:14RestManagerSPM0aB0C11CustomErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:14RestManagerSPM0aB0C11CustomErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "moduleName": "RestManagerSPM",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Implements"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C11CustomErrorO9hashValueSivp",
+              "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO9hashValueSivp",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C11CustomErrorO9hashValueSivg",
+                  "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO9hashValueSivg",
+                  "moduleName": "RestManagerSPM",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:14RestManagerSPM0aB0C11CustomErrorO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO4hash4intoys6HasherVz_tF",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "localizedDescription",
+              "printedName": "localizedDescription",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:14RestManagerSPM0aB0C11CustomErrorO20localizedDescriptionSSvp",
+              "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO20localizedDescriptionSSvp",
+              "moduleName": "RestManagerSPM",
+              "declAttributes": [
+                "AccessControl"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:14RestManagerSPM0aB0C11CustomErrorO20localizedDescriptionSSvg",
+                  "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO20localizedDescriptionSSvg",
+                  "moduleName": "RestManagerSPM",
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:14RestManagerSPM0aB0C11CustomErrorO",
+          "mangledName": "$s14RestManagerSPM0aB0C11CustomErrorO",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "LocalizedError",
+              "printedName": "LocalizedError",
+              "usr": "s:10Foundation14LocalizedErrorP",
+              "mangledName": "$s10Foundation14LocalizedErrorP"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14RestManagerSPM0aB0C",
+      "mangledName": "$s14RestManagerSPM0aB0C",
+      "moduleName": "RestManagerSPM",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RestEntity",
+      "printedName": "RestEntity",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "values",
+          "printedName": "values",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM0A6EntityV6values33_30273ADC4430A738EE78FD725A10420DLLSDyS2SGvp",
+          "mangledName": "$s14RestManagerSPM0A6EntityV6values33_30273ADC4430A738EE78FD725A10420DLLSDyS2SGvp",
+          "moduleName": "RestManagerSPM",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "add",
+          "printedName": "add(value:forKey:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0A6EntityV3add5value6forKeyySS_SStF",
+          "mangledName": "$s14RestManagerSPM0A6EntityV3add5value6forKeyySS_SStF",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "value",
+          "printedName": "value(forKey:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0A6EntityV5value6forKeySSSgSS_tF",
+          "mangledName": "$s14RestManagerSPM0A6EntityV5value6forKeySSSgSS_tF",
+          "moduleName": "RestManagerSPM",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "allValues",
+          "printedName": "allValues()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0A6EntityV9allValuesSDyS2SGyF",
+          "mangledName": "$s14RestManagerSPM0A6EntityV9allValuesSDyS2SGyF",
+          "moduleName": "RestManagerSPM",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "totalItems",
+          "printedName": "totalItems()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM0A6EntityV10totalItemsSiyF",
+          "mangledName": "$s14RestManagerSPM0A6EntityV10totalItemsSiyF",
+          "moduleName": "RestManagerSPM",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RestEntity",
+              "printedName": "RestManagerSPM.RestEntity",
+              "usr": "s:14RestManagerSPM0A6EntityV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM0A6EntityVACycfc",
+          "mangledName": "$s14RestManagerSPM0A6EntityVACycfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14RestManagerSPM0A6EntityV",
+      "mangledName": "$s14RestManagerSPM0A6EntityV",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Var",
+      "name": "defString",
+      "printedName": "defString",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:14RestManagerSPM9defStringSSvp",
+      "mangledName": "$s14RestManagerSPM9defStringSSvp",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "defInt",
+      "printedName": "defInt",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:14RestManagerSPM6defIntSivp",
+      "mangledName": "$s14RestManagerSPM6defIntSivp",
+      "moduleName": "RestManagerSPM",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserData",
+      "printedName": "UserData",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "page",
+          "printedName": "page",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV4pageSiSgvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV4pageSiSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4pageSiSgvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV4pageSiSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4pageSiSgvs",
+              "mangledName": "$s14RestManagerSPM8UserDataV4pageSiSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4pageSiSgvM",
+              "mangledName": "$s14RestManagerSPM8UserDataV4pageSiSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "perPage",
+          "printedName": "perPage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV7perPageSiSgvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV7perPageSiSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV7perPageSiSgvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV7perPageSiSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV7perPageSiSgvs",
+              "mangledName": "$s14RestManagerSPM8UserDataV7perPageSiSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV7perPageSiSgvM",
+              "mangledName": "$s14RestManagerSPM8UserDataV7perPageSiSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "total",
+          "printedName": "total",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV5totalSiSgvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV5totalSiSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV5totalSiSgvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV5totalSiSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV5totalSiSgvs",
+              "mangledName": "$s14RestManagerSPM8UserDataV5totalSiSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV5totalSiSgvM",
+              "mangledName": "$s14RestManagerSPM8UserDataV5totalSiSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "totalPages",
+          "printedName": "totalPages",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV10totalPagesSiSgvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV10totalPagesSiSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV10totalPagesSiSgvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV10totalPagesSiSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV10totalPagesSiSgvs",
+              "mangledName": "$s14RestManagerSPM8UserDataV10totalPagesSiSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV10totalPagesSiSgvM",
+              "mangledName": "$s14RestManagerSPM8UserDataV10totalPagesSiSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "data",
+          "printedName": "data",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[RestManagerSPM.User]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RestManagerSPM.User]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "RestManagerSPM.User",
+                      "usr": "s:14RestManagerSPM4UserV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[RestManagerSPM.User]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[RestManagerSPM.User]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "User",
+                          "printedName": "RestManagerSPM.User",
+                          "usr": "s:14RestManagerSPM4UserV"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[RestManagerSPM.User]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[RestManagerSPM.User]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "User",
+                          "printedName": "RestManagerSPM.User",
+                          "usr": "s:14RestManagerSPM4UserV"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvs",
+              "mangledName": "$s14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvM",
+              "mangledName": "$s14RestManagerSPM8UserDataV4dataSayAA0D0VGSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM8UserDataV11descriptionSSvp",
+          "mangledName": "$s14RestManagerSPM8UserDataV11descriptionSSvp",
+          "moduleName": "RestManagerSPM",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM8UserDataV11descriptionSSvg",
+              "mangledName": "$s14RestManagerSPM8UserDataV11descriptionSSvg",
+              "moduleName": "RestManagerSPM",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(page:perPage:total:totalPages:data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserData",
+              "printedName": "RestManagerSPM.UserData",
+              "usr": "s:14RestManagerSPM8UserDataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[RestManagerSPM.User]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RestManagerSPM.User]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "RestManagerSPM.User",
+                      "usr": "s:14RestManagerSPM4UserV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM8UserDataV4page7perPage5total0I5Pages4dataACSiSg_A3ISayAA0D0VGSgtcfc",
+          "mangledName": "$s14RestManagerSPM8UserDataV4page7perPage5total0I5Pages4dataACSiSg_A3ISayAA0D0VGSgtcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserData",
+              "printedName": "RestManagerSPM.UserData",
+              "usr": "s:14RestManagerSPM8UserDataV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM8UserDataVACycfc",
+          "mangledName": "$s14RestManagerSPM8UserDataVACycfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserData",
+              "printedName": "RestManagerSPM.UserData",
+              "usr": "s:14RestManagerSPM8UserDataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM8UserDataV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s14RestManagerSPM8UserDataV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM8UserDataV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s14RestManagerSPM8UserDataV6encode2toys7Encoder_p_tKF",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14RestManagerSPM8UserDataV",
+      "mangledName": "$s14RestManagerSPM8UserDataV",
+      "moduleName": "RestManagerSPM",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SingleUserData",
+      "printedName": "SingleUserData",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "data",
+          "printedName": "data",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RestManagerSPM.User?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "RestManagerSPM.User",
+                  "usr": "s:14RestManagerSPM4UserV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvp",
+          "mangledName": "$s14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RestManagerSPM.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "RestManagerSPM.User",
+                      "usr": "s:14RestManagerSPM4UserV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvg",
+              "mangledName": "$s14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RestManagerSPM.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "RestManagerSPM.User",
+                      "usr": "s:14RestManagerSPM4UserV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvs",
+              "mangledName": "$s14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvM",
+              "mangledName": "$s14RestManagerSPM14SingleUserDataV4dataAA0E0VSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SingleUserData",
+              "printedName": "RestManagerSPM.SingleUserData",
+              "usr": "s:14RestManagerSPM14SingleUserDataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RestManagerSPM.User?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "RestManagerSPM.User",
+                  "usr": "s:14RestManagerSPM4UserV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM14SingleUserDataV4dataAcA0E0VSg_tcfc",
+          "mangledName": "$s14RestManagerSPM14SingleUserDataV4dataAcA0E0VSg_tcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SingleUserData",
+              "printedName": "RestManagerSPM.SingleUserData",
+              "usr": "s:14RestManagerSPM14SingleUserDataV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM14SingleUserDataVACycfc",
+          "mangledName": "$s14RestManagerSPM14SingleUserDataVACycfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SingleUserData",
+              "printedName": "RestManagerSPM.SingleUserData",
+              "usr": "s:14RestManagerSPM14SingleUserDataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM14SingleUserDataV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s14RestManagerSPM14SingleUserDataV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM14SingleUserDataV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s14RestManagerSPM14SingleUserDataV6encode2toys7Encoder_p_tKF",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14RestManagerSPM14SingleUserDataV",
+      "mangledName": "$s14RestManagerSPM14SingleUserDataV",
+      "moduleName": "RestManagerSPM",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "User",
+      "printedName": "User",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM4UserV2idSiSgvp",
+          "mangledName": "$s14RestManagerSPM4UserV2idSiSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV2idSiSgvg",
+              "mangledName": "$s14RestManagerSPM4UserV2idSiSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV2idSiSgvs",
+              "mangledName": "$s14RestManagerSPM4UserV2idSiSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV2idSiSgvM",
+              "mangledName": "$s14RestManagerSPM4UserV2idSiSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "firstName",
+          "printedName": "firstName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM4UserV9firstNameSSSgvp",
+          "mangledName": "$s14RestManagerSPM4UserV9firstNameSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV9firstNameSSSgvg",
+              "mangledName": "$s14RestManagerSPM4UserV9firstNameSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV9firstNameSSSgvs",
+              "mangledName": "$s14RestManagerSPM4UserV9firstNameSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV9firstNameSSSgvM",
+              "mangledName": "$s14RestManagerSPM4UserV9firstNameSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lastName",
+          "printedName": "lastName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM4UserV8lastNameSSSgvp",
+          "mangledName": "$s14RestManagerSPM4UserV8lastNameSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV8lastNameSSSgvg",
+              "mangledName": "$s14RestManagerSPM4UserV8lastNameSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV8lastNameSSSgvs",
+              "mangledName": "$s14RestManagerSPM4UserV8lastNameSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV8lastNameSSSgvM",
+              "mangledName": "$s14RestManagerSPM4UserV8lastNameSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "avatar",
+          "printedName": "avatar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM4UserV6avatarSSSgvp",
+          "mangledName": "$s14RestManagerSPM4UserV6avatarSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV6avatarSSSgvg",
+              "mangledName": "$s14RestManagerSPM4UserV6avatarSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV6avatarSSSgvs",
+              "mangledName": "$s14RestManagerSPM4UserV6avatarSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV6avatarSSSgvM",
+              "mangledName": "$s14RestManagerSPM4UserV6avatarSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM4UserV11descriptionSSvp",
+          "mangledName": "$s14RestManagerSPM4UserV11descriptionSSvp",
+          "moduleName": "RestManagerSPM",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM4UserV11descriptionSSvg",
+              "mangledName": "$s14RestManagerSPM4UserV11descriptionSSvg",
+              "moduleName": "RestManagerSPM",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(id:firstName:lastName:avatar:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "RestManagerSPM.User",
+              "usr": "s:14RestManagerSPM4UserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM4UserV2id9firstName04lastG06avatarACSiSg_SSSgA2Itcfc",
+          "mangledName": "$s14RestManagerSPM4UserV2id9firstName04lastG06avatarACSiSg_SSSgA2Itcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "RestManagerSPM.User",
+              "usr": "s:14RestManagerSPM4UserV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM4UserVACycfc",
+          "mangledName": "$s14RestManagerSPM4UserVACycfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "RestManagerSPM.User",
+              "usr": "s:14RestManagerSPM4UserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM4UserV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s14RestManagerSPM4UserV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM4UserV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s14RestManagerSPM4UserV6encode2toys7Encoder_p_tKF",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14RestManagerSPM4UserV",
+      "mangledName": "$s14RestManagerSPM4UserV",
+      "moduleName": "RestManagerSPM",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "JobUser",
+      "printedName": "JobUser",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM7JobUserV2idSSSgvp",
+          "mangledName": "$s14RestManagerSPM7JobUserV2idSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV2idSSSgvg",
+              "mangledName": "$s14RestManagerSPM7JobUserV2idSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV2idSSSgvs",
+              "mangledName": "$s14RestManagerSPM7JobUserV2idSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV2idSSSgvM",
+              "mangledName": "$s14RestManagerSPM7JobUserV2idSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM7JobUserV4nameSSSgvp",
+          "mangledName": "$s14RestManagerSPM7JobUserV4nameSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV4nameSSSgvg",
+              "mangledName": "$s14RestManagerSPM7JobUserV4nameSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV4nameSSSgvs",
+              "mangledName": "$s14RestManagerSPM7JobUserV4nameSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV4nameSSSgvM",
+              "mangledName": "$s14RestManagerSPM7JobUserV4nameSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "job",
+          "printedName": "job",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM7JobUserV3jobSSSgvp",
+          "mangledName": "$s14RestManagerSPM7JobUserV3jobSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV3jobSSSgvg",
+              "mangledName": "$s14RestManagerSPM7JobUserV3jobSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV3jobSSSgvs",
+              "mangledName": "$s14RestManagerSPM7JobUserV3jobSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV3jobSSSgvM",
+              "mangledName": "$s14RestManagerSPM7JobUserV3jobSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "createdAt",
+          "printedName": "createdAt",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM7JobUserV9createdAtSSSgvp",
+          "mangledName": "$s14RestManagerSPM7JobUserV9createdAtSSSgvp",
+          "moduleName": "RestManagerSPM",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV9createdAtSSSgvg",
+              "mangledName": "$s14RestManagerSPM7JobUserV9createdAtSSSgvg",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV9createdAtSSSgvs",
+              "mangledName": "$s14RestManagerSPM7JobUserV9createdAtSSSgvs",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV9createdAtSSSgvM",
+              "mangledName": "$s14RestManagerSPM7JobUserV9createdAtSSSgvM",
+              "moduleName": "RestManagerSPM",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14RestManagerSPM7JobUserV11descriptionSSvp",
+          "mangledName": "$s14RestManagerSPM7JobUserV11descriptionSSvp",
+          "moduleName": "RestManagerSPM",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14RestManagerSPM7JobUserV11descriptionSSvg",
+              "mangledName": "$s14RestManagerSPM7JobUserV11descriptionSSvg",
+              "moduleName": "RestManagerSPM",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(id:name:job:createdAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobUser",
+              "printedName": "RestManagerSPM.JobUser",
+              "usr": "s:14RestManagerSPM7JobUserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM7JobUserV2id4name3job9createdAtACSSSg_A3Htcfc",
+          "mangledName": "$s14RestManagerSPM7JobUserV2id4name3job9createdAtACSSSg_A3Htcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobUser",
+              "printedName": "RestManagerSPM.JobUser",
+              "usr": "s:14RestManagerSPM7JobUserV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM7JobUserVACycfc",
+          "mangledName": "$s14RestManagerSPM7JobUserVACycfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobUser",
+              "printedName": "RestManagerSPM.JobUser",
+              "usr": "s:14RestManagerSPM7JobUserV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14RestManagerSPM7JobUserV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s14RestManagerSPM7JobUserV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14RestManagerSPM7JobUserV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s14RestManagerSPM7JobUserV6encode2toys7Encoder_p_tKF",
+          "moduleName": "RestManagerSPM",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14RestManagerSPM7JobUserV",
+      "mangledName": "$s14RestManagerSPM7JobUserV",
+      "moduleName": "RestManagerSPM",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

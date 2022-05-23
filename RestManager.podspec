@@ -17,7 +17,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Prudhvi Krishna" => "prudhvikrishna.moturi@criticalriver.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/prudhvikrishnamoturi/RestManager"
+s.homepage = "https://github.com/prudhvikrishnamoturi"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/prudhvikrishnamoturi/RestManager.git",
