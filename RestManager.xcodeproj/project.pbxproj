@@ -11,7 +11,6 @@
 		A46370912834B1B3008DDA0D /* RestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46370862834B1B3008DDA0D /* RestManager.framework */; };
 		A46370962834B1B3008DDA0D /* RestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46370952834B1B3008DDA0D /* RestManagerTests.swift */; };
 		A46370972834B1B3008DDA0D /* RestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A46370892834B1B3008DDA0D /* RestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A46370A12834B1E7008DDA0D /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46370A02834B1E7008DDA0D /* RestManager.swift */; };
 		A46370A32834C05A008DDA0D /* SampleStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46370A22834C05A008DDA0D /* SampleStructures.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		A463708A2834B1B3008DDA0D /* RestManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RestManager.docc; sourceTree = "<group>"; };
 		A46370902834B1B3008DDA0D /* RestManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46370952834B1B3008DDA0D /* RestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManagerTests.swift; sourceTree = "<group>"; };
-		A46370A02834B1E7008DDA0D /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		A46370A22834C05A008DDA0D /* SampleStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleStructures.swift; sourceTree = "<group>"; };
 		A4A756A6283B91C2000B51BD /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Dependencies; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +76,6 @@
 			children = (
 				A46370892834B1B3008DDA0D /* RestManager.h */,
 				A463708A2834B1B3008DDA0D /* RestManager.docc */,
-				A46370A02834B1E7008DDA0D /* RestManager.swift */,
 				A46370A22834C05A008DDA0D /* SampleStructures.swift */,
 				A4A756A6283B91C2000B51BD /* Dependencies */,
 			);
@@ -204,7 +201,6 @@
 			files = (
 				A463708B2834B1B3008DDA0D /* RestManager.docc in Sources */,
 				A46370A32834C05A008DDA0D /* SampleStructures.swift in Sources */,
-				A46370A12834B1E7008DDA0D /* RestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
