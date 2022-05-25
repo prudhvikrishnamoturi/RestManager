@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '13.0'
 s.name = "RestManager"
 s.summary = "RestManager is an API helper written in Swift"
 s.requires_arc = true
@@ -36,6 +36,3 @@ s.source_files = "RestManager/**/*.{swift}"
 s.swift_version = "5.0"
 
 end
-
-
-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
