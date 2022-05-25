@@ -36,6 +36,3 @@ s.source_files = "RestManager/**/*.{swift}"
 s.swift_version = "5.0"
 
 end
-
-
-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
